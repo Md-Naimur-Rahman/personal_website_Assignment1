@@ -1,0 +1,251 @@
+    body{
+        margin: 0px;
+        height: 100%;
+        font-family: 'Slabo 27px', ;
+    }
+
+    /* navigation bar */
+
+    .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(204, 50, 140);
+    }
+    
+    .navbar li {
+        float: left;
+        margin-left: 40px;
+    }
+    
+    .navbar li a {
+        display: block;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    .navbar li a:hover {
+        background-color: #111;
+    }
+
+
+    /* Introduction area */
+
+    .intro{
+        background-image: url("images/header-bg.png");
+        background-repeat: no-repeat;
+     
+        height: 500px;
+        width: 100%;
+        margin-top: 5%;
+        overflow: hidden;
+
+    }
+    .intro .halfWidth{
+
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        padding-left: 2%;
+        margin-bottom: 5%;
+    }
+    .intro .halfWidth img{
+    width: 80%;
+    height: auto;
+    }
+    .intro .halfWidth h2{
+        font-size: 40px;
+        color: black;
+        }
+    .intro .halfWidth h1{
+        font-size: 50px;
+        color: #be1477;
+        }
+        .intro .halfWidth p{
+            font-size: 20px;
+            color: #302f2f;
+            
+            }
+    .intro .halfWidth .btn{
+        margin-top: 10px;
+        text-decoration: none;
+        background-image: linear-gradient(45deg, lightSalmon,tomato);
+        background-color: orange;
+        padding: 10px 20px;
+        color: white;
+        border-radius: 10px;
+        font-weight: 700;
+    
+    }
+
+    /* Biography area */
+
+.bio{
+        background-image: url("images/header-bg.png");
+        background-repeat: no-repeat;
+     
+        height: 500px;
+        width: 100%;
+        overflow: hidden;
+        margin-top: 10%;
+
+    }
+.bio .halfWidth{
+
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        padding-left: 2%;
+        margin-bottom: 5%;
+    }
+    .bio .halfWidth2{
+
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        padding-left: 2%;
+        margin-top: 10%;
+    }
+.bio .halfWidth img{
+    width: 80%;
+    height: auto;
+    }
+.bio .halfWidth2 h2{
+        font-size: 40px;
+        color: black;
+        }
+.bio .halfWidth2 h1{
+        font-size: 50px;
+        color: #be1477;
+        }
+.bio .halfWidth2 p{
+            font-size: 25px;
+            color: #302f2f;
+            
+            }
+.bio .halfWidth2 .btn{
+        margin-top: 40px;
+        text-decoration: none;
+        background-image: linear-gradient(45deg, lightSalmon,tomato);
+        background-color: orange;
+        padding: 10px 20px;
+        color: white;
+        border-radius: 10px;
+        font-weight: 700;
+    
+    }
+
+ /* Latest Work area */
+        .work{
+            background-image: url("images/latest-work-bg.png");
+            background-repeat: no-repeat;
+    
+            height: 500px;
+            width: 100%;
+            margin-top: 10%;
+            overflow: hidden;
+    
+        }
+        .h{
+            width: 100%;
+      
+            
+        }
+        .work .h h1{
+            font-size: 50px;
+            text-align: center;
+            color: black;
+            }
+    .work .halfWidth{
+        margin-top: 50px;
+        width: 31%;
+        float: left;
+        margin-right: 1%;
+        }
+
+
+            .work .halfWidth img {
+    width: 100%;
+    height: auto;
+}
+/* Client Review area */
+
+.review{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+
+    height: auto;
+    width: 100%;
+    margin-top: 10%;
+    overflow: hidden;
+
+}
+.review{
+    width: 100%;
+
+    
+}
+.review .h h1{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    }
+
+    .review .h h2{
+        font-size: 30px;
+        text-align: center;
+        color: black;
+        }
+        .review .h .hh{
+            font-size: 25px;
+            text-align: center;
+            color: rgb(65, 63, 63);
+            }
+    
+        .review .h p{
+            font-size: 20px;
+            text-align: center;
+            color: black;
+            }
+
+
+/* Contact area */
+.contact{
+    
+    height: auto;
+    width: auto;
+    padding: 10%;
+
+}
+.contact .c{
+    background-color: #be1477;
+    height: auto;
+    width: auto;
+    border-radius: 25px;
+    padding: 5%;
+}
+
+.contact .c #leave{
+text-align: center;
+color: aliceblue;
+font-size: 30px;
+}
+.contact .c .h h1{
+    font-size: 50px;
+    text-align: center;
+    color:  aliceblue;
+    margin-bottom: 20px;
+    }
+
+
+    footer p{
+        text-align: center;
+        font-size: 22px;
+        color: #888484;
+        margin-top: 10%;
+    }
